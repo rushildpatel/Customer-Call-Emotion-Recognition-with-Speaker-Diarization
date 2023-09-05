@@ -28,4 +28,4 @@ After comparing all the models we find the best performing model is SVM (Support
 
 Part B: Split real life audio clip with multiple speakers (usually 2 in a customer call) using speaker diarization method
 
-For a deep dive into the project, here is a detailed report of it : https://drive.google.com/file/d/1Kg3tSbPfRJV5HOkTDdTnbR6OfhyPU0wt/view?usp=sharing
+For a deep dive into the project, here is a detailed report of it : https://drive.google.com/file/d/11L781JGAcg7G-HHQt8C2gCD0hM9n7Z3L/view?usp=sharing
