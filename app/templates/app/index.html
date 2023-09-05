@@ -1,0 +1,22 @@
+{% extends './base.html' %}
+{% load static %}
+{% block css %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'css/homepage.css' %}">
+{% endblock %}
+{% block body %}
+<div class="mood_detector w-50  mx-auto pt-3 mt-5 p-2 mb-5">
+    
+    <div class="d-flex flex-wrap justify-content-around mt-3" style="color: #24C28A;">
+        <h1 style="text-align: center; color:#24C28A;"> Automatic Customer Service Rating Using Speech Emotion Recognition </h1>
+        <br>
+        <form action="{% url 'index' %}" method="post" style="text-align: center; margin-bottom: 50px;" enctype="multipart/form-data">
+            {% csrf_token %}
+            {{ form }} 
+            <button type="submit" class="btn btn-colorp btn-lg rounded" style="margin-top: 40px;"><span class="font-weight-bold">Upload Audio</span></button>
+        </form>
+        <a href="{% url 'audio_breakdown' %}"><button type="span" class="btn btn-colorp btn-lg  rounded"><span class="font-weight-bold">Split the audio and Analyse</span></button></a>
+    </div>
+</div>
+</div>
+{% endblock %}

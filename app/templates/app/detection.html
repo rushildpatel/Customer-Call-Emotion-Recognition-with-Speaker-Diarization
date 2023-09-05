@@ -1,0 +1,36 @@
+{% extends './base.html' %}
+{% load static %}
+{% block css %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'css/homepage.css' %}">
+<style>
+    .center{
+    margin-left: auto; 
+    margin-right: auto;
+}
+</style>
+{% endblock %}
+{% block body %}
+<h2 class="text-center" style = "color: #24C28A;"><u>Voice Break-Up</u></h2><br>
+<table class="table table-dark table-striped center" style="max-width: fit-content; text-align: center; ">
+    <thead>
+        <tr>
+            <th>Start</th>
+            <th>End</th>
+            <th>Speaker</th>
+            <th>Emotion</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for row in data_list %}
+                <tr>
+                    {% for item in row %}
+                        <td>{{ item }}</td>
+                    {% endfor %}
+                </tr>
+            {% endfor %}
+    </tbody>
+    <br>
+    <div style="text-align: center;"><a class="button" href="{% url 'landing' %}">Home</a></div>
+</table>
+{% endblock %}
