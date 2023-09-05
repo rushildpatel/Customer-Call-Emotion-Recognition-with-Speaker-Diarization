@@ -27,3 +27,5 @@ The project is structured in nine jupyter notebooks with these parts:
 After comparing all the models we find the best performing model is SVM (Support Vector Machine).
 
 Part B: Split real life audio clip with multiple speakers (usually 2 in a customer call) using speaker diarization method
+
+For a deep dive into the project, here is a detailed report of it : https://drive.google.com/file/d/1Kg3tSbPfRJV5HOkTDdTnbR6OfhyPU0wt/view?usp=sharing
