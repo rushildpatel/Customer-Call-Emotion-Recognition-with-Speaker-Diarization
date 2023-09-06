@@ -25,9 +25,9 @@ The project is structured in nine jupyter notebooks with these parts:
 6. **Convolutional Netural Network**: training a Conv Net with MFCC data as two-dimensional arrays instead of using the features
 7. **Models performance comparison**: evaluation of model performance with visualizations and final considerations on the project
 
-ML model Details:
+### ML model Details:
 
-Random Forest:  
+#### Random Forest:  
 ![alt text](images/Random%20Forest%20Hyperparameter%20Tuning%20Heatmap.png)
 ![alt text](images/Random%20Forest%20Hyperparameter%20Tuning%20Graphs.png)
 
@@ -40,7 +40,7 @@ Hyperparameter Heatmap and Graph for choosing the best hyperparameters.
 
 Test accuracy for the random forest model after the tuning: 0.912
 
-Support Vector Machine:
+#### Support Vector Machine:
 ![alt text](images/SVM%20Hyperparameter%20Tuning%20Heatmaps.png)
 ![alt text](images/SVM%20Hyperparameter%20Tuning%20Graphs.png)
 
@@ -53,7 +53,7 @@ Hyperparameter Heatmap and Graph for choosing the best hyperparameters.
 
 The SVC classifier with the RBF kernel achieved outstanding results, exhibiting a remarkable test accuracy of 0.961.
 
-Convolutional Neural Network:
+#### Convolutional Neural Network:
 
 ![alt text](images/Convolutional%20Neural%20Network%20Accuracy%20Loss%20Graphs.png)
 
