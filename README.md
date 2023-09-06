@@ -76,5 +76,10 @@ Split real life audio clip with multiple speakers (usually 2 in a customer call)
 ![alt text](images/speaker%20diarization.png)
 
 
+## Django App Screenshots
+![alt text](images/webapp1.png)
+![alt text](images/webapp2.png)
+![alt text](images/webapp3.png)
+
 
 For a deep dive into the project, here is a detailed report of it : https://drive.google.com/file/d/11L781JGAcg7G-HHQt8C2gCD0hM9n7Z3L/view?usp=sharing
